@@ -39,10 +39,10 @@
 ## Скриншоты
 
 ### Основной интерфейс
-![Main Interface](screenshots\1.jpg)
+![Main Interface](screenshots/1.jpg)
 
 ### Пример списка событий
-![Example Events](screenshots\2.jpg)
+![Example Events](screenshots/2.jpg)
 
 ---
 
