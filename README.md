@@ -35,10 +35,10 @@
 ## Скриншоты
 
 ### Основной интерфейс
-![Main Interface](screenshots\4.png)
+![Main Interface](screenshots/4.png)
 
 ### Пример списка событий
-![Example Events](screenshots\3.png)
+![Example Events](screenshots/3.png)
 
 ---
 
