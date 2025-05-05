@@ -1,0 +1,38 @@
+body {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+  background-color: var(--background-clr);
+  background: radial-gradient(
+      circle at 20% 30%,
+      var(--deep-purple),
+      transparent 40%
+    ),
+    radial-gradient(circle at 80% 70%, var(--aqua-blue), transparent 40%),
+    linear-gradient(to bottom, var(--dark-navy), var(--space-dark));
+}
+
+.container {
+  position: relative;
+  width: 1200px;
+  min-height: 850px;
+  margin: 0 auto;
+  color: #fff;
+  display: flex;
+  border-radius: 30px;
+  border: 2px solid #ffffff36;
+}
+
+.left {
+  width: 60%;
+}
+
+.right {
+  position: relative;
+  width: 40%;
+  min-height: 100%;
+  padding: 20px 0;
+}

@@ -39,11 +39,10 @@
 ## Скриншоты
 
 ### Основной интерфейс
-![Main Interface](screenshots\1.jpg)
+![Example Events](screenshots/4.png)
 
 ### Пример списка событий
-![Example Events](screenshots\2.jpg)
-
+![Main Interface](screenshots/3.png)
 ---
 
 ## Как начать
@@ -77,7 +76,15 @@
 ```
 calendar-app/
 ├── index.html       # Основной HTML файл
-├── style.css        # Файл стилей
+├── css/
+        |- base.css
+        |- calendar.css
+        |- event-form.css
+        |- events.css
+        |- reset.css
+        |- responsive.css
+        |- variables.css
+                
 ├── app.js           # Логика на JavaScript
 ├── img/             # Изображения (например, иконки)
 ├── screenshots/     # Скриншоты для README
@@ -109,4 +116,5 @@ calendar-app/
 
 Свяжитесь с нами:
 - **GitHub**: [@sanferq](https://github.com/sanferq)
+- **LinkedIn**: [Maksim Proselkin](https://www.linkedin.com/in/maksim-proselkin-769790363/)
 - **Email**: [proselkinmaksim@gmail.com](mailto:proselkinmaksim@gmail.com)

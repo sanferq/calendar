@@ -1,0 +1,16 @@
+:root {
+  --primary-clr: #d0cffb;
+  --deep-purple: #6a4c93;
+  --aqua-blue: #4ecdc4;
+  --dark-navy: #1a1a2e;
+  --space-dark: #0f1c3f;
+  --secondary-clr: #878895;
+  --background-clr: #e2e1dc;
+  --container-bg: #38374f;
+  --calendar-bg: #fff;
+  --border-clr: #f5f5f5;
+  --inactive-date-clr: #716e6e;
+  --shadow-clr: #d3d4d6d7;
+  --hover-clr: #3f4458;
+  --text-clr: #fff;
+}

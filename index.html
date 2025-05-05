@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calendar</title>
-    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/calendar.css" />
+    <link rel="stylesheet" href="./css/events.css" />
+    <link rel="stylesheet" href="./css/event-form.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -27,7 +34,6 @@
           <div class="month">
             <i class="fas fa-angle-left prev"></i>
             <div class="date">December 2025</div>
-            <!-- Обновленный год -->
             <i class="fas fa-angle-right next"></i>
           </div>
           <div class="weekdays">
@@ -45,7 +51,7 @@
               <input type="text" placeholder="mm/yyyy" class="date-input" />
               <button class="goto-btn">Go</button>
             </div>
-            <button class="today-btn">Today</button>
+            <button class="today-btn">Сегодня</button>
           </div>
         </div>
       </div>
@@ -57,26 +63,22 @@
         <div class="events"></div>
         <div class="add-event-wrapper">
           <div class="add-event-header">
-            <div class="title">Add event</div>
+            <div class="title">Добавить событие</div>
             <i class="fas fa-times close"></i>
           </div>
           <div class="add-event-body">
             <div class="add-event-input">
-              <input type="text" placeholder="Event name" class="event-name" />
-            </div>
-            <div class="add-event-input">
               <input
                 type="text"
-                placeholder="Event Time From"
-                class="event-time-from"
+                placeholder="Название события"
+                class="event-name"
               />
             </div>
             <div class="add-event-input">
-              <input
-                type="text"
-                placeholder="Event Time From"
-                class="event-time-to"
-              />
+              <input type="text" placeholder="С" class="event-time-from" />
+            </div>
+            <div class="add-event-input">
+              <input type="text" placeholder="До" class="event-time-to" />
             </div>
           </div>
           <div class="add-event-footer">
